@@ -1,0 +1,1 @@
+export {TextHeaderBlockPhotoBigSize} from "./TextHeaderBlockPhotoBigSize"

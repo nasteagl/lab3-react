@@ -1,0 +1,19 @@
+.container {
+ display: flex;
+    flex-direction:column;
+    margin-left:1rem;
+    gap: 1rem;
+    margin-top: 10rem;
+}
+
+.text-block{
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.image{
+    width:118rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}

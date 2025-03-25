@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    padding: 20px;
+    margin-top: 6rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.moreNews {
+    color: black;
+    padding: 0.4rem 1.2rem;
+    border: 0.2rem solid black;
+    border-radius: 6rem;
+    font-size: 1rem;
+}
+
+.newsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.4rem;
+}
+
+.newsImage {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.newsTitle {
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    margin: 0 10px;
+    /*border: 0.2rem solid black;*/
+    /*border-radius: 5rem;*/
+    /*!*padding: 0rem 2rem;*!*/
+}
+
+

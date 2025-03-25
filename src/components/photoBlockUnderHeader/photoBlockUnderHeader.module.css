@@ -1,0 +1,9 @@
+.photo{
+    position: absolute;
+    margin-left: 1rem;
+    width: 55rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+
+}

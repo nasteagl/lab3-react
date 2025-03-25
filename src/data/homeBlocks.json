@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Berlin apartment building",
+    "photo": "../src/assets/MainPageImage/house_luxury_in_germanu/exterior_house.png",
+    "firstText": "Berlin apartment building",
+    "secondText": "2021"
+  },
+  {
+
+    "photo": "../src/assets/MainPageImage/house_luxury_in_germanu/exterior_house_x2.png",
+    "firstText": "Frankfurt House",
+    "secondText": "2025"
+  },
+  {
+
+    "photo": "../src/assets/MainPageImage/house_luxury_in_germanu/Modern Houses.png",
+    "firstText": "By the Swan House",
+    "secondText": "2020"
+  },
+  {
+
+    "photo": "../src/assets/MainPageImage/house_luxury_in_germanu/rockforest.png",
+    "firstText": "By the SomethingName House",
+    "secondText": "2019"
+  }
+]

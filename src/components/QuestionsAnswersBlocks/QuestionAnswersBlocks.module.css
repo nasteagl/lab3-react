@@ -1,0 +1,29 @@
+.faq-container {
+    max-width: 100%;
+    margin-top :8rem;
+}
+
+.faq-item {
+    border-bottom: 0.1rem solid #ccc;
+    padding: 0.6rem 0;
+
+}
+
+.faq-question {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.faq-answer {
+    margin-top: 0.6rem;
+    color:black;
+
+}
+
+.header{
+    font-size: 2rem;
+}

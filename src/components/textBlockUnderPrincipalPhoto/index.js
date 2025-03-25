@@ -1,0 +1,1 @@
+export {TextBlockUnderPrincipalPhoto} from "./textBlockUnderPrincipalPhoto";

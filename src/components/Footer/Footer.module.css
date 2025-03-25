@@ -1,0 +1,90 @@
+
+.container {
+    background: black;
+    color: white;
+    padding: 4rem;
+    margin-top:10rem;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+
+.contact-form {
+    flex: 1;
+    max-width: 40rem;
+}
+
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact-form label {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+
+.contact-form input {
+    padding: 0.7rem;
+    margin-top: 0.4rem;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+
+.contact-form button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    width: 10rem;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4rem;
+}
+
+
+.contact-info {
+    flex: 1;
+    max-width: 60rem;
+}
+
+
+.contact-info h3 {
+    margin-bottom: 0.6rem;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 3rem;
+    background-color: #222;
+    padding: 0.5rem;
+    color: white;
+}
+
+
+.AvenueHomes {
+    font-size: 6rem;
+}
+
+
+
+.IndividualHomeBuilders{
+    font-size: 2rem;
+}

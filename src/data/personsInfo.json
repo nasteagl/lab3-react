@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "William Do",
+    "image": "../src/assets/MainPageImage/personImages/person1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ana Do",
+    "image": "../src/assets/MainPageImage/personImages/person2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mariam John",
+    "image": "../src/assets/MainPageImage/personImages/person3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "William Do",
+    "image": "../src/assets/MainPageImage/personImages/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "John Do",
+    "image": "../src/assets/MainPageImage/personImages/person5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "John Do",
+    "image":"../src/assets/MainPageImage/personImages/person6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "John Do",
+    "image": "../src/assets/MainPageImage/personImages/person7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "John Do",
+    "image":"../src/assets/MainPageImage/personImages/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "John Do",
+    "image": "../src/assets/MainPageImage/personImages/person9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "John Do",
+    "image": "../src/assets/MainPageImage/personImages/person10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "John Do",
+    "image":"../src/assets/MainPageImage/personImages/person11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "William Do",
+    "image": "../src/assets/MainPageImage/personImages/12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "William Do",
+    "image": "../src/assets/MainPageImage/personImages/pers13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "William Do",
+    "image":"../src/assets/MainPageImage/personImages/pers14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "William Do",
+    "image":"../src/assets/MainPageImage/personImages/pers15.jpg"
+  }
+]

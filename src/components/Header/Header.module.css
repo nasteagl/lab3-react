@@ -1,0 +1,59 @@
+.container {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background 3s ease;
+}
+
+
+.container.darkMode {
+    color: black;
+}
+
+
+.container.lightMode {
+    color: white;
+}
+
+.container.scrolled {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.7rem 1.9rem;
+    width: 100%;
+}
+.header-title a:visited,
+.header-title a:focus,
+.header-title a:hover,
+.header-title a:active {
+    text-decoration: none;
+    color: inherit ;
+    outline: none;
+}
+
+.header-title {
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    color:inherit;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.7rem;
+    justify-content: flex-end;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}

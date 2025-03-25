@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:3rem;
+    margin-top:8rem;
+    gap: 10rem;
+}
+
+.leftSide{
+    flex: 1  55%;
+    padding-right: 2rem;
+}
+.headerLeftSide{
+    font-size:6rem;
+    margin-bottom:1rem;
+}
+
+.navBar{
+    display:flex;
+    gap:2rem;
+    font-size: 1.8rem;
+    color: gray;
+    white-space: nowrap;
+    align-items: center;
+}
+/*nav span{*/
+/*    cursor:pointer;*/
+/*}*/
+
+/*nav .selected{*/
+/*    color:black;*/
+/*    font-weight: bold;*/
+/*}*/
+
+.rightSide{
+    flex: 1  45%;
+    padding-left: 2rem;
+}
+
+
+.rightSide h2{
+    font-size:2.5rem;
+    white-space: nowrap;
+}
+
+.rightSide p{
+    font-size:1.8rem;
+    color:gray;
+    white-space:normal;
+}
+
+.line{
+    width:100%;
+    background: grey;
+    height: 0.1rem;
+    margin-top:2rem;
+}

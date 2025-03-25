@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    margin-left: 0.5rem;
+    gap: 1rem;
+    align-items: center;
+    margin-top:    3rem ;
+}
+
+.text-with-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: 0.1rem solid darkgray;
+    border-radius: 3rem;
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.line {
+    width: 87%;
+    height: 0.1rem;
+    background-color: darkgray;
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;
+}
+
+.arrow img {
+    width: 1rem;
+    height: 1rem;
+}

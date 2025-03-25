@@ -1,0 +1,39 @@
+/* textBlockUnderPrincipalPhoto.module.css */
+
+.luxury-header-container {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    margin: 2rem;
+
+}
+
+.luxury-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.luxurySubtitle {
+    align-self: flex-start;
+    margin-top:7rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
+
+}
+
+.luxuryHomeText,
+.luxuryHomeDescription {
+    flex: 1;
+    min-width: 0;
+    gap: 2rem;
+}
+.luxuryHomeDescription {
+    font-size: 1.8rem;
+    font-weight:lighter;
+}
+
+.luxuryHomeText {
+    font-size: 1.7rem;
+    font-weight: lighter;
+}

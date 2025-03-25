@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    margin-left: 0.5rem;
+    margin-top:33rem;
+    gap: 1rem;
+    align-items: center;
+}
+.firstText{
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.line{
+    width: 11rem;
+    height: 0.1rem;
+    background-color: darkgray;
+    margin-right:0.6rem;
+    margin-left:0.6rem;
+}
+
+.secondText{
+    margin-left: 1rem;
+}

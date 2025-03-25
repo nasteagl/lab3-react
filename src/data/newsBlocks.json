@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "The White House Is Officially Decked Out for Christmas",
+    "image": "../src/assets/MainPageImage/latest_news_from_avenue_blocks/batman.png"
+  },
+  {
+    "id": 2,
+    "title": "5 Living Room Trends to Watch in 2025",
+    "image":"../src/assets/MainPageImage/latest_news_from_avenue_blocks/GabrielRivera.png"
+  },
+  {
+    "id": 3,
+    "title": "Save Thousands on a Home Upgrade With These Last-Minute Cyber Monday Furniture Deals",
+    "image": "../src/assets/MainPageImage/latest_news_from_avenue_blocks/living_photo.png"
+  }
+]

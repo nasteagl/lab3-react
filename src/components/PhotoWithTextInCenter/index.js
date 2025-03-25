@@ -1,0 +1,1 @@
+export {PhotoWithTextInCenter} from "./PhotoWithTextInCenter"
