@@ -11,6 +11,7 @@
 
 .container.darkMode {
     color: black;
+    background: white;
 }
 
 
@@ -18,8 +19,11 @@
     color: white;
 }
 
-.container.scrolled {
-    background-color: rgba(0, 0, 0, 0.5);
+.container.scrolled.darkMode {
+    background-color: white
+}
+.container.scrolled.lightMode{
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .header {

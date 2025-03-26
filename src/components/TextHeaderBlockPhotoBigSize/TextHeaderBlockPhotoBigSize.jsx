@@ -8,7 +8,7 @@ export function TextHeaderBlockPhotoBigSize({ text, photo, width = "100%", heigh
                 className={styles["image"]}
                 src={photo}
                 alt="Photo"
-                style={{ width: width, height: height }}
+                style={{ width, height }}
             />
         </div>
     );

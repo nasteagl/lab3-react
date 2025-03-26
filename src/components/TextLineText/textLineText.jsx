@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './textLinetext.module.css';
 
-export function TextLineText({ firstText, secondText, lineWidth = "11rem", marginTop = "10rem" }) {
+export function TextLineText({ firstText, secondText, lineWidth = "11rem", marginTop = "5rem" }) {
     return (
-        <div className={style.container} style={{ marginTop: marginTop }}>
+        <div className={style.container} style={{ marginTop}}>
             <div className={style.firstText}>
                 <span>{firstText}</span>
             </div>

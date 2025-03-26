@@ -3,9 +3,9 @@ import {PageInfoBlock} from "@components/PageInfoBlock/index.js";
 import {Footer} from "@components/Footer/index.js";
 import {TwoTextBlocks} from "@components/TwoTextBlocks/index.js";
 import data from "@data/personsInfo.json"
-import {PhotoWithTextBlocksPerson} from "@components/photoWithTextBlocksPerson";
-import {LineButtonElement} from "@components/lineButtonElement/index.js";
-import {LineElement} from "@components/lineElement/index.js";
+import {PhotoWithTextBlocksPerson} from "@components/PhotoWithTextBlocksPerson";
+import {LineElement} from "@components/LineElement/index.js";
+import style from "../components/PhotoWithTextBlocksPerson/photoWithTextBlocksPerson.module.css"
 
 export default function OurPeople() {
 
@@ -23,17 +23,19 @@ export default function OurPeople() {
                                "A far stretch from the large cookie-cutter building companies, Averna is a small family company that’s friendly and flexible," +
                                " working closely with our clients and only building a limited number of luxury custom homes annually."}/>
 
-            <div style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(3, 0fr)",
-            }}>
+            <div className={style["container"]}>
                 {data.map((person) => (
-                    <PhotoWithTextBlocksPerson key={person.id} nameSurname={person.name} photo={person.image} marginTop={"3.3rem"}  />
+                    <PhotoWithTextBlocksPerson
+                        key={person.id}
+                        nameSurname={person.name}
+                        photo={person.image}
+
+                    />
                 ))}
             </div>
 
            <LineElement/>
-            <Footer theme="darkMode"/>
+            <Footer />
 
 
         </>

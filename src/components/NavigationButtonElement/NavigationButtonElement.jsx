@@ -1,6 +1,6 @@
-import style from "./ButtonElement.module.css"
+import style from "./NavigationButtonElement.module.css"
 
-export function ButtonElement({marginTop}) {
+export function NavigationButtonElement({marginTop="7rem"}) {
     return(
         <>
             <div className={style['container']} style={{marginTop}}>

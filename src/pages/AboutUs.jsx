@@ -1,10 +1,10 @@
-import {Header} from '../components/Header';
-import {PageInfoBlock} from "../components/PageInfoBlock";
-import {TwoTextBlocks} from "../components/TwoTextBlocks";
+import {Header} from "@components/Header";
+import {PageInfoBlock} from "@components/PageInfoBlock";
+import {TwoTextBlocks} from "@components/TwoTextBlocks";
 import {PhotoWithTextInCenter} from "@components/PhotoWithTextInCenter/index.js";
 import photo from "@assets/MainPageImage/AboutUsPhoto/workTeam.jpg"
-import photoSecond from "../assets/MainPageImage/AboutUsPhoto/teamWorkVersionSecond.png"
-import {LineButtonElement} from "../components/lineButtonElement"
+import photoSecond from "@assets/MainPageImage/AboutUsPhoto/teamWorkVersionSecond.png"
+import {LineButtonElement} from "@components/LineButtonElement"
 import {Footer} from "@components/Footer/index.js";
 
 function AboutUs() {
@@ -29,7 +29,7 @@ function AboutUs() {
             <PhotoWithTextInCenter image={photoSecond}/>
             <PhotoWithTextInCenter image={photo} text={"Avenue Homes was created by builder CEO something companies, whose passion for building was ignited as a teenager when he worked alongside his father as a tiler. This led to further building qualifications and the eventual formalisation of Avenue, named after an Italian digestive liqueur, nearly a decade ago."} />
 
-            <LineButtonElement text={'FOUND MORE'}/>
+            <LineButtonElement>FOUND MORE </LineButtonElement>
             <Footer/>
 
         </>
